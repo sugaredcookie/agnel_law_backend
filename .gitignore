@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+
+# Directory for user-generated content
+uploads/certificates
+uploads/collected_photos
+uploads/collected_signs
+uploads/certificates
+uploads/receipts
+# Optional npm cache directory
+.npm
+
+# Optional yarn cache directory
+.yarn
+
+/client
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Directory for secret environment variables
+.env
+
+# Directory for local configurations
+*.local
+
+# Optional coverage directory
+coverage/
+
+# Optional build directories
+dist/
+build/
+
+# Optional OS files
+.DS_Store
+Thumbs.db
+backups/
+temp/
+.env.demo
+createAdminUser.js
+import-students.js
+*.txt
+*.pdf
+output/
+.env.*uploads/
+.env.*
+PLAN.md
+*.xlsx
