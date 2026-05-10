@@ -61,8 +61,6 @@ const app = express();
 app.use(express.json({ limit: "10mb" }));
 app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
-const cors = require("cors");
-
 const allowedOrigins = [
   "https://lms.raphaedu.com",
   "https://law.raphaedu.com",
@@ -71,7 +69,7 @@ const allowedOrigins = [
   "http://localhost:5173",
   "http://localhost:8001",
   "https://agnel-law-frontend.vercel.app",
-  "http://bct.raphaedu.com"
+  "https://bct.raphaedu.com"
 ];
 
 app.use(
