@@ -63,7 +63,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 app.use(
   cors({
     origin: [
-      "https://lms.raphaedu.com", 
+      "https://lms.raphaedu.com",
       "http://localhost:3000",
       "http://localhost:3001",
       "http://localhost:5173",
@@ -74,6 +74,8 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization", "X-Requested-With"],
   })
 );
+
+app.options("*", cors());
 
 app.use("/api/rubrics", rubricsRouter);
 app.use("/api/groupby-students", groupbyStudentsRouter);
