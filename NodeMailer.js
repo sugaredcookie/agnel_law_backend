@@ -859,7 +859,7 @@ export const newUserNonTeachingStaffRegisterEmailWithLoginDetails = (
     <body>
       <div class="container">
         <div class="header">
-          <h2>Welcome to Non-Teaching Staff - Agnel School of Law</h2>
+          <h2>Welcome to Non-Teaching Staff - Bhagubai Changu Thakur College of Law</h2>
         </div>
         <div class="content">
           <p>Dear ${name},</p>
@@ -874,7 +874,7 @@ export const newUserNonTeachingStaffRegisterEmailWithLoginDetails = (
           <p>For security reasons, please change your password after first login.</p>
           <p>You can access the portal using these credentials.</p>
           
-          <p>Best regards,<br>Administration<br>Agnel School of Law</p>
+          <p>Best regards,<br>Administration<br>Bhagubai Changu Thakur College of Law</p>
         </div>
         <div class="footer">
           <p>This is an automated message, please do not reply to this email.</p>
